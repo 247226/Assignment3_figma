@@ -1,0 +1,50 @@
+/* ================= ROOT VARIABLES ================= */
+:root {
+  --primary: #4f46e5;
+  --text: #222;
+  --muted: #777;
+  --bg: #f8f9fa;
+}
+
+/* ================= GLOBAL ================= */
+body {
+  font-family: Arial, sans-serif;
+  color: var(--text);
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+p {
+  color: var(--muted);
+}
+
+/* ================= HERO ================= */
+.hero-section {
+  background: linear-gradient(to right, #fff, #f3f4f6);
+}
+
+/* ================= SERVICES ================= */
+.service-box {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* ================= CTA ================= */
+.cta {
+  background: var(--primary);
+}
+
+/* ================= RESPONSIVENESS ================= */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  .hero-section {
+    text-align: center;
+  }
+}
