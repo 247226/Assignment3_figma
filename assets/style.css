@@ -439,3 +439,91 @@ body {
     .cta-buttons { flex-direction: column; align-items: center; }
     .story-card, .help-card { padding: 40px 30px; }
 }
+.insights-section {
+    background-color: #f3f7fa; /* Matches the light grey background from the design */
+    padding: 100px 0;
+}
+
+.insights-main-title {
+    color: #120e3a;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 60px;
+}
+
+/* Card Styling */
+.insight-card {
+    background: #ffffff;
+    border-radius: 40px;
+    overflow: hidden; /* Clips the image to the top corners */
+    height: 100%;
+    text-align: left;
+    transition: transform 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+}
+
+/* Third card has a visible border in the screenshot */
+.border-card {
+    border: 1px solid #120e3a;
+}
+
+.insight-image-wrapper {
+    position: relative;
+    height: 250px;
+}
+
+.insight-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Badge styling (Expertise/Guides) */
+.insight-badge {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: #ffffff;
+    color: #120e3a;
+    padding: 6px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.insight-content {
+    padding: 40px 30px;
+}
+
+.insight-content h3 {
+    color: #120e3a;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.insight-content p {
+    color: #120e3a;
+    font-size: 15px;
+    line-height: 1.6;
+    opacity: 0.8;
+}
+
+/* Wide Yellow Button */
+.btn-yellow-wide {
+    display: inline-block;
+    background-color: #ffb13b;
+    color: #120e3a;
+    padding: 15px 45px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .insights-main-title { font-size: 32px; }
+    .insight-content { padding: 30px 20px; }
+}
