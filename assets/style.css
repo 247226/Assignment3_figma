@@ -343,3 +343,58 @@ body {
     .features-container { padding: 40px 20px; border-radius: 30px; }
     .features-buttons { flex-direction: column; align-items: center; }
 }
+/* Help & Story Cards */
+.help-story-section {
+    padding: 80px 0;
+    background-color: #ffffff;
+}
+
+.story-card {
+    background-color: #ffb13b; /* Yellow background */
+    padding: 60px;
+    border-radius: 40px;
+    height: 100%;
+}
+
+.help-card {
+    background-color: #ffffff;
+    padding: 60px;
+    border-radius: 40px;
+    height: 100%;
+    border: 1px solid #f0f0f0; /* Subtle border for the white card */
+}
+
+.story-card h2, .help-card h2 {
+    color: #120e3a;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.story-card p, .help-card p {
+    color: #120e3a;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Small Blue Button inside Story Card */
+.btn-blue-sm {
+    display: inline-block;
+    background-color: #4335de;
+    color: #ffffff;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.btn-outline-dark {
+    display: inline-block;
+    border: 2px solid #120e3a;
+    color: #120e3a;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
