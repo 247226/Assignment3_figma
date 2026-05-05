@@ -651,6 +651,18 @@ body {
     font-weight: 700;
     font-size: 18px;
 }
+/* Container for the 3 award logos */
+.awards-logos {
+    margin-top: 30px;
+    background: #ffffff; /* The white box background */
+    padding: 20px;
+    border-radius: 20px; /* Rounded corners for the box */
+    display: flex; /* Forces images into a horizontal row */
+    justify-content: space-around; /* Spreads them evenly */
+    align-items: center;
+    max-width: 450px; /* Keeps it aligned with the newsletter box */
+    margin-left: auto; /* Pushes to the right to match design */
+}
 
 /* Individual logo sizing */
 .awards-logos img {
