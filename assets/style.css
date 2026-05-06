@@ -38,3 +38,21 @@ body {
 .navbar-nav .nav-link:hover {
     color: var(--brand-purple) !important;
 }
+/* Custom Sign In Button */
+.btn-signin {
+    background-color: #4633b6 !important; /* Purple color */
+    color: #ffffff !important;           /* White text */
+    padding: 10px 32px !important;       /* Box sizing */
+    border-radius: 50px !important;      /* Rounded pill shape */
+    text-decoration: none !important;
+    font-weight: 700 !important;
+    display: inline-block !important;
+    border: none !important;
+    transition: 0.3s background-color;
+}
+
+.btn-signin:hover {
+    background-color: #35269b !important;
+    color: #ffffff !important;
+}
+
