@@ -55,4 +55,16 @@ body {
     background-color: #35269b !important;
     color: #ffffff !important;
 }
+/* Ensure Nav Links are the right color */
+.nav-link {
+    color: #120e3a !important;
+    font-weight: 600 !important;
+}
+/* Keep your brand colors and navbar code as is, but replace the Hero CSS with this: */
+.hero-section {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #f8faff 0%, #eef3ff 100%);
+    overflow: hidden;
+}
+
 
