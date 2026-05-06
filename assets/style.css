@@ -101,6 +101,84 @@ body {
     .hero-image-stack img:first-child { height: 400px; width: 100%; }
     .hero-image-stack img:last-child { height: 430px; left: 10%; }
 }
+.testimonial-section {
+    background-color: #ffb13b;
+    padding: 100px 0;
+    overflow-x: hidden;
+}
+
+.testimonial-title {
+    color: #120e3a;
+    font-size: 42px;
+    font-weight: 800;
+    margin-left: 10%; 
+    margin-bottom: 40px;
+    max-width: 600px; /* Prevents title from getting too wide */
+}
+
+.testimonial-card {
+    background: #ffffff; /* Restores the white color */
+    min-width: 350px; /* REDUCED SIZE: allows more cards to be seen */
+    max-width: 400px; 
+    padding: 35px; /* Comfortable spacing inside */
+    border-radius: 40px; /* Matches the rounded sample */
+    flex-shrink: 0; /* CRITICAL: Prevents cards from growing/shrinking */
+    scroll-snap-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.testimonial-track {
+    display: flex; /* Forces cards into a row */
+    gap: 30px; /* Space between boxes */
+    padding: 40px 10%; 
+    overflow-x: auto; /* Allows horizontal scrolling */
+    scroll-snap-type: x mandatory; /* Makes scrolling feel smooth */
+    scrollbar-width: none; /* Hides scrollbar for Firefox */
+}
+
+.testimonial-track::-webkit-scrollbar {
+    display: none;
+}
+.stars {
+    color: #ffb13b;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.review-text {
+    font-size: 16px; /* Slightly smaller text to keep boxes compact */
+    line-height: 1.5;
+    color: #120e3a;
+    margin-bottom: 20px;
+}
+/* Make sure this matches your HTML class */
+.author-block strong {
+    display: block;
+    color: #120e3a;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.author-block span {
+    color: #120e3a;
+    font-weight: 700;
+    font-size: 14px;
+}
+.featured-container {
+    margin-top: 80px;
+    padding-bottom: 60px;
+    width: 100%;
+}
+/* Container for the label and the logos */
+.featured-content {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* Space between "Featured in" and logos */
+    flex-wrap: wrap; 
+    width: 100%;
+}
 
 
 
