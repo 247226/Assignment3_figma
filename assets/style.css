@@ -179,6 +179,14 @@ body {
     flex-wrap: wrap; 
     width: 100%;
 }
+/* The label styling */
+.featured-label {
+    font-weight: 800;
+    font-size: 24px;
+    color: #120e3a;
+    white-space: nowrap;
+}
+
 
 
 
