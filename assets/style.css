@@ -613,6 +613,59 @@ body {
 }
 
 /* Middle Nav */
+.footer-heading {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.footer-divider {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav li {
+    margin-bottom: 12px;
+}
+
+.footer-nav li a {
+    color: #ffb13b; /* Yellow links */
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+/* Container for the 3 award logos */
+.awards-logos {
+    margin-top: 30px;
+    background: #ffffff; /* The white box background */
+    padding: 20px;
+    border-radius: 20px; /* Rounded corners for the box */
+    display: flex; /* Forces images into a horizontal row */
+    justify-content: space-around; /* Spreads them evenly */
+    align-items: center;
+    max-width: 450px; /* Keeps it aligned with the newsletter box */
+    margin-left: auto; /* Pushes to the right to match design */
+}
+
+/* Individual logo sizing */
+.awards-logos img {
+    height: 45px; /* Fixed height so they are uniform */
+    width: auto;
+    object-fit: contain;
+}
+.footer-bottom-text {
+    margin-top: 60px;
+    font-size: 11px;
+    opacity: 0.6;
+    line-height: 1.6;
+}
+
+
 
 
 
